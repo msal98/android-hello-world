@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loginPrompt"
+                android:id="@+id/textView"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:paddingRight="20dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/passwordPrompt"
+                android:id="@+id/textView1"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:paddingRight="20dp"/>
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:width="150dp"/>
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText1"
+                android:layout_row="1"
+                android:layout_column="2"
+                android:inputType="textPassword"
+                android:width="150dp"/>
+
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rememberMePrompt"
+                android:id="@+id/checkBox"
+                android:layout_row="2"
+                android:layout_column="2"
+                android:checked="true"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/signIn.title"
+                android:id="@+id/button"
+                android:layout_row="3"
+                android:layout_column="2"/>
+    </GridLayout>
+
+    <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/ic_launcher"
+            android:padding="30dp"
+            android:layout_gravity="center_horizontal"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My first android app!"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal|bottom"
+            android:padding="5dp"
+            android:textColor="#64b4ff"/>
+</FrameLayout>

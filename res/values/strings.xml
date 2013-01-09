@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Example</string>
+    <string name="signIn.title">Sign-In</string>
+    <string name="loginPrompt">Login:</string>
+    <string name="passwordPrompt">Password:</string>
+    <string name="rememberMePrompt">Remember me</string>
+</resources>
